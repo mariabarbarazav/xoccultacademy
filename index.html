@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioLink - Maria Barbara Zavala</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .cover {
+            width: 100%;
+            height: 300px;
+            background-color: #000000;
+            position: relative;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #000000;
+            position: absolute;
+            left: 10px;
+            bottom: -90px;
+            object-fit: cover;
+        }
+        .content {
+            max-width: 800px; /* Ancho máximo para escritorio */
+            width: 90%; /* Ancho relativo para adaptarse a móviles */
+            margin: 0 0 0 10px; /* Alineado a la izquierda en escritorio */
+            padding: 20px;
+            text-align: left;
+        }
+        .name {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 100px;
+            text-align: left; /* Solo alineado a la izquierda */
+        }
+        .subtitle {
+            font-size: 14px;
+            margin: 5px 0;
+            text-align: left; /* Solo alineado a la izquierda */
+        }
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 20px 0 10px;
+            text-align: left; /* Solo alineado a la izquierda */
+        }
+        .bio {
+            font-size: 12px;
+            line-height: 1.5;
+            letter-spacing: 0; /* Interletrado en 0 */
+            word-spacing: -0.5px; /* Reduce separación entre palabras */
+            margin-bottom: 20px;
+            text-align: justify; /* Texto justificado */
+        }
+        .bio p {
+            margin: 10px 0;
+        }
+        .link {
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 0; /* Interletrado en 0 */
+            word-spacing: -0.5px; /* Reduce separación entre palabras */
+            text-align: justify; /* Texto justificado */
+        }
+        .link a {
+            color: #000000;
+            text-decoration: underline;
+        }
+        /* Media query para pantallas pequeñas (móviles) */
+        @media (max-width: 600px) {
+            .cover {
+                height: 250px; /* Corregido de UE0 a 250px */
+            }
+            .profile-pic {
+                width: 150px;
+                height: 150px;
+                bottom: -75px;
+                left: 5px; /* Alineado a la izquierda en móviles */
+            }
+            .content {
+                margin: 0 0 0 5px; /* Alineado a la izquierda en móviles */
+                padding: 15px;
+            }
+            .name {
+                margin-top: 80px; /* Ajuste para la foto de perfil más pequeña */
+                font-size: 16px; /* Ligeramente más pequeño en móviles */
+            }
+            .subtitle {
+                font-size: 13px;
+            }
+            .section-title {
+                font-size: 13px;
+            }
+            .bio {
+                font-size: 11px;
+            }
+            .link {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <img src="https://i.postimg.cc/13n83tvJ/file-000000000ad461f79992181b7872e992.png" alt="Profile Picture" class="profile-pic">
+    </div>
+    <div class="content">
+        <div class="name">La Academia del Conocimiento Oculto</div>
+        <div class="subtitle">Por María Bárbara Zavala</div>
+        <div class="bio">
+            <p><strong>Maestra en conocimiento esotérico</strong></p>
+            <p>Mis citas, frases, fragmentos, pensamientos, meditaciones, reflexiones, escritos, opiniones y análisis.</p>
+        </div>
+    </div>
+</body>
+  </html>
